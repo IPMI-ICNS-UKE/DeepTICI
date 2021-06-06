@@ -1,0 +1,35 @@
+#maps argmax of model output to a tici-score
+label_mapping:
+  0: TICI 0
+  1: TICI 0
+  2: TICI 2a
+  3: TICI 2b
+  4: TICI 3
+  5: TICI 3
+
+#model parameters to initialize the pretrained model by us
+model_params:
+  #path to weights
+  pretrained:
+    - model_weights/HH_weights
+    - model_weights/final_cf_konsens_0
+    - model_weights/final_cf_konsens_1
+    - model_weights/final_cf_konsens_2
+
+  #number of features from the encoder
+  feature_size: 1280
+  #number of output class
+  num_classes: 6
+  in_channels: 3
+  output_size: 1280
+
+preprocessor_steps:
+  crop_image:
+    tol: 0.01
+  clip_image:
+    mode: multiotsu
+  temp_normalize_image:
+  normalize_image_range:
+  resample_image:
+    frame_shape: !!python/tuple [ 224,224 ]
+

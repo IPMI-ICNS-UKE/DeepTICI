@@ -1,0 +1,11 @@
+efficientnet_pytorch >= 0.6
+torch >= 1.6
+scikit-image >=0 .17.2
+PyYAML >= 5.4.1
+opencv-python >= 4.5.2
+SimpleITK >= 2.0.2
+
+
+
+
+
