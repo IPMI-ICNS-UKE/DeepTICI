@@ -1,5 +1,6 @@
-#DeepTICI
+# DeepTICI
 
+## About
 Implementation of the first fully automatic TICI-scoring system. The system is based on a combination of *encoder*, *GRU*
 and *classifier*. Details with regard to our proposed method can be found in the following MICCAI contribution:
 [Time Matters: Handling Spatio-Temporal Perfusion Information for Automated TICI Scoring](https://doi.org/10.1007/978-3-030-59725-2_9)
@@ -8,6 +9,8 @@ and *classifier*. Details with regard to our proposed method can be found in the
 A detailed performance analysis is available in Stroke:
 [Deep learning-based automated TICI scoring:a timely proof-of-principle study ](working_doi)
 ![alt text](images/Results.jpg "Results overview")
+
+## Usage
 
 Example usage for prediction after installation. For predicting purposes weights from all experiments are included:
 
@@ -20,7 +23,7 @@ tici_score = predict.predict_series(dcm_paths)
 print(tici_score)
 ```
 
-Furthermore, fine tuning on personal data is supported:
+Fine tuning on personal data is supported:
 
 ```python
 from DeepTICI import model
