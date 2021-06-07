@@ -11,10 +11,10 @@ label_mapping:
 model_params:
   #path to weights
   pretrained:
-    - model_weights/HH_weights
-    - model_weights/final_cf_konsens_0
-    - model_weights/final_cf_konsens_1
-    - model_weights/final_cf_konsens_2
+    - model_weights/experiment_I
+    - model_weights/experiment_III_0
+    - model_weights/experiment_III_1
+    - model_weights/experiment_III_2
 
   #number of features from the encoder
   feature_size: 1280
