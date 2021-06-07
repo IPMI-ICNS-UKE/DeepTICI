@@ -10,9 +10,11 @@ A detailed performance analysis is available in Stroke:
 [Deep learning-based automated TICI scoring:a timely proof-of-principle study ](working_doi)
 ![alt text](images/Results.jpg "Results overview")
 
+## Installation
+
 ## Usage
 
-Example usage for prediction after installation. For predicting purposes weights from all experiments are included:
+Example usage for predicting a TICI score for a given two-views (i.e. lateral and frontal) DSA series (original M1 occlusion). Model weights from all experiments performed in our recent publication are included and can be seperately used for automatic TICI scoring.
 
 ```python
 from DeepTICI import predict
