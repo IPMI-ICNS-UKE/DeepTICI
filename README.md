@@ -1,6 +1,6 @@
 # DeepTICI
 
-This repository contains the official code and model weights for the following STROKE 2021 publication (cf. [About](#About) section for details):
+This repository contains the official code and model weights for the following STROKE 2021 [publication](working_doi) (cf. [About](#About) section for details):
 
 ```
 @Article{STROKE,
@@ -16,6 +16,13 @@ The code has been tested with Python 3.8 on Ubuntu 20.04 LTS. The following Pyth
 - d
 
 ## Installation
+It is recommended to install the package in a separate virtual environment created with , e.g., [virtualenv](https://virtualenv.pypa.io/en/stable/) or [(mini)conda](https://conda.io/docs/user-guide/install/index.html).
+
+```sh
+git clone https://github.com/IPMI-ICNS-UKE/DeepTICI
+cd DeepTICI
+pip install .
+```
 
 ## Usage
 
