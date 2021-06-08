@@ -8,6 +8,7 @@ This repository contains the official code and model weights for the following S
 ```
 
 ## Requirements
+
 The code has been tested with Python 3.8 on Ubuntu 20.04 LTS. The following Python packages are required (lower versions may also be sufficient):
 -
 -
