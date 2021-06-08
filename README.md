@@ -1,6 +1,6 @@
 # DeepTICI
 
-This repository contains the official code and model weights for the following STROKE 2021 contribution (see [About](#About) section):
+This repository contains the official code and model weights for the following STROKE 2021 publication (cf. [About](#About) section for details):
 
 ```
 @Article{STROKE,
