@@ -1,14 +1,19 @@
 # DeepTICI
 
-## About
-Implementation of the first fully automatic TICI-scoring system. The system is based on a combination of *encoder*, *GRU*
-and *classifier*. Details with regard to our proposed method can be found in the following MICCAI contribution:
-[Time Matters: Handling Spatio-Temporal Perfusion Information for Automated TICI Scoring](https://doi.org/10.1007/978-3-030-59725-2_9)
-![alt text](images/method.png "Method overview")
+This repository contains the official code and model weights for the following STROKE 2021 contribution (see [About](#About) section):
 
-A detailed performance analysis is available in Stroke:
-[Deep learning-based automated TICI scoring:a timely proof-of-principle study ](working_doi)
-![alt text](images/results.png "Results overview")
+```
+@Article{STROKE,
+}
+```
+
+## Requirements
+The code has been tested with Python 3.8 on Ubuntu 20.04 LTS. The following Python packages are required (lower versions may also be sufficient):
+-
+-
+-
+-
+-
 
 ## Installation
 
@@ -42,3 +47,12 @@ for data in data_loader:
     output = model(x=img, series_lenghts=series_lenghts, model_mode=ModelMode.train, output_mode=OutputMode.last_frame)
     # loss, backward-pass,  etc.
 ```
+## <a name="About"></a> About
+Implementation of the first fully automatic TICI-scoring system. The system is based on a combination of *encoder*, *GRU*
+and *classifier*. Details with regard to our proposed method can be found in the following MICCAI contribution:
+[Time Matters: Handling Spatio-Temporal Perfusion Information for Automated TICI Scoring](https://doi.org/10.1007/978-3-030-59725-2_9)
+![alt text](images/method.png "Method overview")
+
+A detailed performance analysis is available in Stroke:
+[Deep learning-based automated TICI scoring:a timely proof-of-principle study ](working_doi)
+![alt text](images/results.png "Results overview")
