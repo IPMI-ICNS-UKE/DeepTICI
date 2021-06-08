@@ -26,7 +26,7 @@ pip install .
 
 ## Usage
 
-Example usage for predicting a TICI score for a given two-views (i.e. lateral and frontal) DSA series (original M1 occlusion). Model weights from all experiments performed in our recent publication are included and can be seperately used for automatic TICI scoring (selectable via  predict_experiment_I/predict_experiment_III/predict_ensemble methods). 
+Example usage for predicting a TICI score for a given two-views (i.e. lateral and frontal) DSA series (original M1 occlusion). Model weights from all experiments performed in our recent publication are included and can be seperately used for automatic TICI scoring (selectable via  predict_experiment_I/predict_experiment_III/predict_ensemble methods in configuration.yml). 
 
 ```python
 from DeepTICI import predict
