@@ -63,3 +63,6 @@ and *classifier*. Details with regard to our proposed method can be found in the
 A detailed performance analysis is available in Stroke:
 [Deep learning-based automated TICI scoring:a timely proof-of-principle study ](working_doi)
 ![alt text](images/results.png "Results overview")
+
+## Citation
+
