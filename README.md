@@ -65,11 +65,11 @@ for data in data_loader:
 ```
 ## <a name="About"></a> About
 Implementation of the first fully automatic TICI-scoring system. The system is based on a combination of *encoder*, *GRU*
-and *classifier*. Details of our proposed method can be found in the following MICCAI contribution:
+and *classifier*. Details of our proposed method can be found in the following MICCAI contribution:  
 [Time Matters: Handling Spatio-Temporal Perfusion Information for Automated TICI Scoring](https://doi.org/10.1007/978-3-030-59725-2_9)
 ![alt text](images/method.png "Method overview")
 
-A detailed performance analysis is available in Stroke:
+A detailed performance analysis is available in Stroke:  
 [Deep Learning–Based Automated Thrombolysis in Cerebral Infarction Scoring: A Timely Proof-of-Principle Study](https://doi.org/10.1161/STROKEAHA.120.033807)
 ![alt text](images/results.png "Results overview")
 
