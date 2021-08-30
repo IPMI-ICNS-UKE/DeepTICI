@@ -2,6 +2,10 @@
 
 This repository contains the official code and model weights for the following STROKE 2021 [publication](https://doi.org/10.1161/STROKEAHA.120.033807) (cf. [About](#About) section for details):
 
+> Nielsen M, Waldmann M, Frölich A, Flottmann F, Hristova E, Bendszus M, Seker F, Fiehler J, Sentker T, Werner R. Deep Learning–Based Automated Thrombolysis in Cerebral Infarction Scoring: A Timely Proof-of-Principle Study. *Stroke*. 2021;XX:XXX–XXX. doi: 10.1161/STROKEAHA.120.033807
+
+Nielsen et al. Stroke
+
 ## Requirements
 The code has been tested with Python 3.8 on Ubuntu 20.04 LTS. The following Python packages are required (lower versions may also be sufficient):
 - efficientnet_pytorch >= 0.6
@@ -64,7 +68,7 @@ A detailed performance analysis is available in Stroke:
 
 ```
 @article{DeepTICI,
-  title={Deep Learning–Based Automated Thrombolysis in Cerebral Infarction Scoring},
+  title={Deep Learning–Based Automated Thrombolysis in Cerebral Infarction Scoring: A Timely Proof-of-Principle Study},
   author={Nielsen, Maximilian and Waldmann, Moritz and Fr{\"o}lich, Andreas and Flottmann, Fabian and Hristova, Evelin and Bendszus, Martin and Seker, Fatih and Fiehler, Jens and Sentker, Thilo and Werner, Ren{\'e}},
   journal={Stroke},
   volume={XX},
