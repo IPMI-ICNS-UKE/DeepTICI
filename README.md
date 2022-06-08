@@ -74,18 +74,21 @@ A detailed performance analysis is available in Stroke:
 [Deep Learning–Based Automated Thrombolysis in Cerebral Infarction Scoring: A Timely Proof-of-Principle Study](https://doi.org/10.1161/STROKEAHA.120.033807)
 ![alt text](images/results.png "Results overview")
 
-## Citation
+## Citations
+
+If code and model are used for publications, please cite the following papers:
 
 ```
 @article{DeepTICI,
   title={Deep Learning–Based Automated Thrombolysis in Cerebral Infarction Scoring: A Timely Proof-of-Principle Study},
   author={Nielsen, Maximilian and Waldmann, Moritz and Fr{\"o}lich, Andreas and Flottmann, Fabian and Hristova, Evelin and Bendszus, Martin and Seker, Fatih and Fiehler, Jens and Sentker, Thilo and Werner, Ren{\'e}},
   journal={Stroke},
-  volume={XX},
-  number={X},
-  pages={XXX--XXX},
+  volume={52},
+  number={11},
+  pages={3497--3504},
   year={2021},
-  publisher={Am Heart Assoc}
+  publisher={Am Heart Assoc},
+  doi={10.1161/STROKEAHA.120.033807}
 }
 ```
 
