@@ -102,3 +102,7 @@ If code and model are used for publications, please cite the following papers:
   organization={Springer}
 }
 ```
+
+## License
+
+See the LICENSE.txt file for license rights and limitations (CC BY-NC 4.0).
